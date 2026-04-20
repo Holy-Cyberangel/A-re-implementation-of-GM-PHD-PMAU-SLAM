@@ -1,0 +1,54 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = D:/MATLAB
+startdir = C:/Users/Genshin.LAPTOP-KT17H25I/Desktop/GM-PHD-PMAU-SLAM-朱联军复现版/GM-PHD-PMAU-SLAM
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM\codegen_test_map_predict" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM\codegen_test_map_predict\interface" -I "D:\MATLAB\extern\include" -I "." -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp 
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM\codegen_test_map_predict" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-SLAM-朱联军复现版\GM-PHD-PMAU-SLAM\codegen_test_map_predict\interface" -I "D:\MATLAB\extern\include" -I "." -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp 
+
+ldflags = map_predict.def  -m64 -Wl,--no-undefined -shared -static -L"D:\MATLAB\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "map_predict_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil -fopenmp
+
+ldxxflags = map_predict.def  -m64 -Wl,--no-undefined -shared -static -L"D:\MATLAB\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -llibMatlabDataArray -llibMatlabEngine  -o "map_predict_mex.mexw64" -llibemlrt -llibcovrt -llibut -llibmwmathutil -fopenmp
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldxxflags
+
+# Build
+build $builddir/map_predict_data.o : cc $root/map_predict_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/map_predict_initialize.o : cc $root/map_predict_initialize.c
+build $builddir/map_predict_terminate.o : cc $root/map_predict_terminate.c
+build $builddir/map_predict.o : cc $root/map_predict.c
+build $builddir/_coder_map_predict_api.o : cc $root/interface/_coder_map_predict_api.c
+build $builddir/_coder_map_predict_mex.o : cc $root/interface/_coder_map_predict_mex.c
+build $builddir/_coder_map_predict_info.o : cc $root/interface/_coder_map_predict_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\map_predict_mex.mexw64 : link $builddir/map_predict_data.o $builddir/rt_nonfinite.o $builddir/map_predict_initialize.o $builddir/map_predict_terminate.o $builddir/map_predict.o $builddir/_coder_map_predict_api.o $builddir/_coder_map_predict_mex.o $builddir/_coder_map_predict_info.o $builddir/c_mexapi_version.o 

@@ -1,0 +1,110 @@
+[
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  slam_step_codegen_data.c -o build/win64/slam_step_codegen_data.o",
+    "file": "slam_step_codegen_data.c",
+    "output": "build/win64/slam_step_codegen_data.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  slam_step_codegen_initialize.c -o build/win64/slam_step_codegen_initialize.o",
+    "file": "slam_step_codegen_initialize.c",
+    "output": "build/win64/slam_step_codegen_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  slam_step_codegen_terminate.c -o build/win64/slam_step_codegen_terminate.o",
+    "file": "slam_step_codegen_terminate.c",
+    "output": "build/win64/slam_step_codegen_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  slam_step_codegen.c -o build/win64/slam_step_codegen.o",
+    "file": "slam_step_codegen.c",
+    "output": "build/win64/slam_step_codegen.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  repmat.c -o build/win64/repmat.o",
+    "file": "repmat.c",
+    "output": "build/win64/repmat.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  mrdivide_helper.c -o build/win64/mrdivide_helper.o",
+    "file": "mrdivide_helper.c",
+    "output": "build/win64/mrdivide_helper.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  warning.c -o build/win64/warning.o",
+    "file": "warning.c",
+    "output": "build/win64/warning.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  det.c -o build/win64/det.o",
+    "file": "det.c",
+    "output": "build/win64/det.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_slam_step_codegen_api.c -o build/win64/_coder_slam_step_codegen_api.o",
+    "file": "interface/_coder_slam_step_codegen_api.c",
+    "output": "build/win64/_coder_slam_step_codegen_api.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_slam_step_codegen_mex.c -o build/win64/_coder_slam_step_codegen_mex.o",
+    "file": "interface/_coder_slam_step_codegen_mex.c",
+    "output": "build/win64/_coder_slam_step_codegen_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  eml_int_forloop_overflow_check.c -o build/win64/eml_int_forloop_overflow_check.o",
+    "file": "eml_int_forloop_overflow_check.c",
+    "output": "build/win64/eml_int_forloop_overflow_check.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  chol.c -o build/win64/chol.o",
+    "file": "chol.c",
+    "output": "build/win64/chol.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  sort.c -o build/win64/sort.o",
+    "file": "sort.c",
+    "output": "build/win64/sort.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  sortIdx.c -o build/win64/sortIdx.o",
+    "file": "sortIdx.c",
+    "output": "build/win64/sortIdx.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  slam_step_codegen_emxutil.c -o build/win64/slam_step_codegen_emxutil.o",
+    "file": "slam_step_codegen_emxutil.c",
+    "output": "build/win64/slam_step_codegen_emxutil.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_slam_step_codegen_info.c -o build/win64/_coder_slam_step_codegen_info.o",
+    "file": "interface/_coder_slam_step_codegen_info.c",
+    "output": "build/win64/_coder_slam_step_codegen_info.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\tools\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen\\slam_step_mex\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  D:/MATLAB/extern/version/c_mexapi_version.c -o build/win64/c_mexapi_version.o",
+    "file": "D:/MATLAB/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]

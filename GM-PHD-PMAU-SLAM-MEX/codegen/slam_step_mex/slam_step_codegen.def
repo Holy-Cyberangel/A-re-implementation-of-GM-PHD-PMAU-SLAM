@@ -1,0 +1,18 @@
+LIBRARY slam_step_codegen.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+slam_step_codegen
+slam_step_codegen_initialize
+slam_step_codegen_terminate
+slam_step_codegen_atexit
+emxEnsureCapacity_real_T
+emxFree_real_T
+emxEnsureCapacity_int32_T
+emxFree_int32_T
+emxInit_real_T
+emxInit_int32_T
+emxEnsureCapacity_struct0_T
+emxFree_struct0_T
+emxInit_struct0_T

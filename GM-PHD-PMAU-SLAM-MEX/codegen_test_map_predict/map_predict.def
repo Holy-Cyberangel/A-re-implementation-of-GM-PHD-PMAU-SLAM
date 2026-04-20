@@ -1,0 +1,9 @@
+LIBRARY map_predict.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
+emlrtMexFcnProperties
+map_predict
+map_predict_initialize
+map_predict_terminate
+map_predict_atexit

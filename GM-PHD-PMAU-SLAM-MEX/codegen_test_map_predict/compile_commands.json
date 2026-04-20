@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  map_predict_data.c -o build/win64/map_predict_data.o",
+    "file": "map_predict_data.c",
+    "output": "build/win64/map_predict_data.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  rt_nonfinite.c -o build/win64/rt_nonfinite.o",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  map_predict_initialize.c -o build/win64/map_predict_initialize.o",
+    "file": "map_predict_initialize.c",
+    "output": "build/win64/map_predict_initialize.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  map_predict_terminate.c -o build/win64/map_predict_terminate.o",
+    "file": "map_predict_terminate.c",
+    "output": "build/win64/map_predict_terminate.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  map_predict.c -o build/win64/map_predict.o",
+    "file": "map_predict.c",
+    "output": "build/win64/map_predict.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_map_predict_api.c -o build/win64/_coder_map_predict_api.o",
+    "file": "interface/_coder_map_predict_api.c",
+    "output": "build/win64/_coder_map_predict_api.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_map_predict_mex.c -o build/win64/_coder_map_predict_mex.o",
+    "file": "interface/_coder_map_predict_mex.c",
+    "output": "build/win64/_coder_map_predict_mex.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  interface/_coder_map_predict_info.c -o build/win64/_coder_map_predict_info.o",
+    "file": "interface/_coder_map_predict_info.c",
+    "output": "build/win64/_coder_map_predict_info.o"
+  },
+  {
+    "directory": "C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict",
+    "command": "C:\\ProgramData\\MATLAB\\SupportPackages\\R2025a\\3P.instrset\\mingw_w64.instrset\\bin\\gcc -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\" -I \"C:\\Users\\Genshin.LAPTOP-KT17H25I\\Desktop\\GM-PHD-PMAU-SLAM-朱联军复现版\\GM-PHD-PMAU-SLAM\\codegen_test_map_predict\\interface\" -I \"D:\\MATLAB\\extern\\include\" -I \".\" -DMODEL=map_predict_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp  D:/MATLAB/extern/version/c_mexapi_version.c -o build/win64/c_mexapi_version.o",
+    "file": "D:/MATLAB/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.o"
+  }
+]
