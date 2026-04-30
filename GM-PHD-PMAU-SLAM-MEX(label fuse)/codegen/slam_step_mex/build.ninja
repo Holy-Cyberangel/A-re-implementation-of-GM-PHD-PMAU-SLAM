@@ -1,0 +1,62 @@
+# CompilerName=mingw64
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root/build/win64
+matlabdir = D:/MATLAB
+startdir = C:/Users/Genshin.LAPTOP-KT17H25I/Desktop/GM-PHD-PMAU-zlj-reproduce-version/codes/LGM-PHD-PMAU-SLAM-MEX/tools
+
+# Toolchain information
+cc = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\gcc
+cxx = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\g++
+linker = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\gcc
+linkerxx = C:\ProgramData\MATLAB\SupportPackages\R2025a\3P.instrset\mingw_w64.instrset\bin\g++
+
+cflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c99 -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\codegen\slam_step_mex" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\tools" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\codegen\slam_step_mex\interface" -I "D:\MATLAB\extern\include" -I "." -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp 
+
+cxxflags =  -c -fexceptions -fno-omit-frame-pointer -m64 -DMATLAB_MEX_FILE  -DMATLAB_MEX_FILE -O2 -fwrapv -DNDEBUG -std=c++11 -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\codegen\slam_step_mex" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\tools" -I "C:\Users\Genshin.LAPTOP-KT17H25I\Desktop\GM-PHD-PMAU-zlj-reproduce-version\codes\LGM-PHD-PMAU-SLAM-MEX\codegen\slam_step_mex\interface" -I "D:\MATLAB\extern\include" -I "." -DMODEL=slam_step_mex -D__USE_MINGW_ANSI_STDIO=1 -msse2 -fno-predictive-commoning -Wno-stringop-overflow -Wno-maybe-uninitialized -fopenmp 
+
+ldflags = slam_step_codegen.def  -m64 -Wl,--no-undefined -shared -static -L"D:\MATLAB\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -o "slam_step_mex.mexw64" -L"$matlabdir\extern\lib\win64\mingw64" -llibmwblas -llibemlrt -llibcovrt -llibut -llibmwmathutil -fopenmp
+
+ldxxflags = slam_step_codegen.def  -m64 -Wl,--no-undefined -shared -static -L"D:\MATLAB\extern\lib\win64\mingw64" -llibmx -llibmex -llibmat -lm -llibmwlapack -llibmwblas -llibMatlabDataArray -llibMatlabEngine  -o "slam_step_mex.mexw64" -L"$matlabdir\extern\lib\win64\mingw64" -llibmwblas -llibemlrt -llibcovrt -llibut -llibmwmathutil -fopenmp
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in -o $out
+
+rule cxx
+    command = $cxx $cxxflags $in -o $out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldxxflags
+
+# Build
+build $builddir/slam_step_codegen_data.o : cc $root/slam_step_codegen_data.c
+build $builddir/rt_nonfinite.o : cc $root/rt_nonfinite.c
+build $builddir/slam_step_codegen_initialize.o : cc $root/slam_step_codegen_initialize.c
+build $builddir/slam_step_codegen_terminate.o : cc $root/slam_step_codegen_terminate.c
+build $builddir/slam_step_codegen.o : cc $root/slam_step_codegen.c
+build $builddir/repmat.o : cc $root/repmat.c
+build $builddir/warning.o : cc $root/warning.c
+build $builddir/inv.o : cc $root/inv.c
+build $builddir/_coder_slam_step_codegen_api.o : cc $root/interface/_coder_slam_step_codegen_api.c
+build $builddir/_coder_slam_step_codegen_mex.o : cc $root/interface/_coder_slam_step_codegen_mex.c
+build $builddir/eml_int_forloop_overflow_check.o : cc $root/eml_int_forloop_overflow_check.c
+build $builddir/chol.o : cc $root/chol.c
+build $builddir/sort.o : cc $root/sort.c
+build $builddir/sortIdx.o : cc $root/sortIdx.c
+build $builddir/slam_step_codegen_emxutil.o : cc $root/slam_step_codegen_emxutil.c
+build $builddir/_coder_slam_step_codegen_info.o : cc $root/interface/_coder_slam_step_codegen_info.c
+build $builddir/c_mexapi_version.o : cc $matlabdir/extern/version/c_mexapi_version.c
+
+# Link
+build $root\slam_step_mex.mexw64 : link $builddir/slam_step_codegen_data.o $builddir/rt_nonfinite.o $builddir/slam_step_codegen_initialize.o $builddir/slam_step_codegen_terminate.o $builddir/slam_step_codegen.o $builddir/repmat.o $builddir/warning.o $builddir/inv.o $builddir/_coder_slam_step_codegen_api.o $builddir/_coder_slam_step_codegen_mex.o $builddir/eml_int_forloop_overflow_check.o $builddir/chol.o $builddir/sort.o $builddir/sortIdx.o $builddir/slam_step_codegen_emxutil.o $builddir/_coder_slam_step_codegen_info.o $builddir/c_mexapi_version.o 
